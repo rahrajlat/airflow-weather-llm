@@ -46,8 +46,8 @@ with DAG(
 
     weather_info = WeatherApiOperator(
         task_id="get_weather",
-        lattitude=99.406,# Example latitude
-        longitude=0.015,# Example longitude
+        lattitude=51.406,
+        longitude=0.015,
         hours_ahead=1,
         do_xcom_push=True,
     )
