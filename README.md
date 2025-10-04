@@ -63,4 +63,29 @@ MIT License
 
 ---
 
-> _Showcasing the intersection of data engineering and generative AI for smarter, automated insights._
+## 🛠️ How to run -?
+
+Start the Docker container by running the below commands 
+
+
+> docker build . --tag airflow_local:latest
+
+###### Initialise Docker Container based on the docker compose file
+
+> docker compose up airflow-init
+
+###### Run the Docker container
+
+> docker compose up -d
+
+###### Stopping the container
+
+> docker compose down
+
+Once the Airflow instance is up & running create the below variables from the UI -
+
+- LLM_HOSTNAME (Hostname where Ollama is running and choose a model of your choice I have used - llama3.2:1b )
+- PUSHOVER_USER_KEY (Create an API key from here -https://pushover.net/ )
+- PUSHOVER_API_TOKEN (Create an API token from here - https://pushover.net/ )
+
+

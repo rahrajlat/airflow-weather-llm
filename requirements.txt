@@ -1,0 +1,7 @@
+requests>=2.32.0
+urllib3>=2.2.0
+python-dotenv>=1.0.1
+agno
+ollama
+# add FAB auth manager provider so we can manage users
+apache-airflow-providers-fab
