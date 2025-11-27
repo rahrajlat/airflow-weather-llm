@@ -308,8 +308,3 @@ flowchart LR
 - UI-based configuration (Airflow plugin or external dashboard)
 
 ---
-
-## Author
-
-**Rahul**  
-(Feel free to update this section with your full name, GitHub, or portfolio links.)
