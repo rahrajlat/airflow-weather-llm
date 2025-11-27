@@ -22,7 +22,7 @@ Each layer is isolated using custom Airflow operators, making the system modular
 ## Workflow Summary
 
 - The DAG runs **twice daily (07:00 & 14:00, Europe/London)**.
-- Weather data is retrieved for Bromley, UK.
+- Weather data is retrieved based on coordinates.
 - A constrained LLM agent interprets the forecast and produces clothing advice.
 - The final recommendation is delivered directly to the user’s device.
 
